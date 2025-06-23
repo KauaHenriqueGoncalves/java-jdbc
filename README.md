@@ -31,7 +31,7 @@ Este projeto utiliza as seguintes bibliotecas e frameworks:
 
 
 
-## ⚙️ Pré-requisitos
+##  Pré-requisitos
 
 Antes de rodar o projeto, se faz necessário ter em sua máquina, instalado:
 
@@ -41,7 +41,7 @@ Antes de rodar o projeto, se faz necessário ter em sua máquina, instalado:
 
 
 
-## ▶️ Instalação do projeto
+##  Instalação do projeto
 
 1. **Clone o repositório:**
    - Vá no seu terminal, escolha o diretório de sua preferência e execute:
@@ -85,7 +85,7 @@ Antes de rodar o projeto, se faz necessário ter em sua máquina, instalado:
 
 
 
-## 🐧 Estrutura de Diretório
+## Estrutura de Diretório
 
 Abaixo está a estrutura do projeto, com uma breve descrição de cada diretório e sua responsabilidade:
 
@@ -116,10 +116,10 @@ src/
 
 ```
 
-## 🫂 Contribuições
+## Contribuições
 
 Contribuições são muito bem-vindas! 
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 A realização deste projeto só foi possível graças ao apoio constante.
