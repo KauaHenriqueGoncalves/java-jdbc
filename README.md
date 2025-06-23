@@ -1,4 +1,4 @@
-# JAVAPROJECT
+# JAVA
 
 Utilizando algumas tecnologias do java para fazer uma interface e a conexão do banco de dados de maneira tradicional.
 
