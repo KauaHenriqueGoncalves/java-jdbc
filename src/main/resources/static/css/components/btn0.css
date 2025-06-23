@@ -1,0 +1,16 @@
+.btn0 {
+    -fx-pref-width: 150px;
+    -fx-pref-height: 40px;
+    -fx-background-color: #e50914;
+    -fx-background-radius: 6px;
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20;
+    -fx-cursor: hand;
+}
+
+.btn0:hover {
+    -fx-background-color: #b20710;
+}

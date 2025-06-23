@@ -1,0 +1,26 @@
+.scrollPane {
+    -fx-background-color: transparent;
+    -fx-background: #00000088;
+    -fx-background-radius: 15px;
+}
+
+.scrollPane .viewport {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15px;
+    -fx-clip: true;
+}
+
+.scrollPane .scroll-bar {
+    -fx-background-color: #00000055;
+}
+
+.scrollPane .scroll-bar .thumb {
+    -fx-background-color: #555;
+    -fx-background-radius: 5px;
+}
+
+.scrollPane .scroll-bar .increment-arrow,
+.scrollPane .scroll-bar .decrement-arrow {
+    -fx-shape: "";
+    -fx-padding: 0;
+}

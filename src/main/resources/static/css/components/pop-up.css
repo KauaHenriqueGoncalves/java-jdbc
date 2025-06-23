@@ -1,0 +1,11 @@
+.pop-up{
+    -fx-border-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px;
+    -fx-pref-height: 57px;
+    -fx-pref-width: 219px;
+}
+.text-pop-up{
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}

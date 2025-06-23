@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="rootPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" stylesheets="@../../../../static/css/default.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java.java.controllers.MovieController">
+    <children>
+        <Pane fx:id="menu" layoutX="-161.0" prefHeight="600.0" prefWidth="286.0" styleClass="menu">
+            <children>
+                <Button id="menu-btn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="28.0" layoutY="41.0" mnemonicParsing="false" onAction="#onNavigateToHome" prefHeight="54.0" prefWidth="230.0" text="HOME         " textOverrun="CLIP">
+                    <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../static/images/icon/home.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets right="20.0" />
+                    </padding>
+                </Button>
+                <Button id="menu-btn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="28.0" layoutY="216.0" mnemonicParsing="false" onAction="#onNavigateToMovie" prefHeight="54.0" prefWidth="230.0" text="MOVIES         " textOverrun="CLIP">
+                    <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../static/images/icon/clapperboard.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets right="20.0" />
+                    </padding>
+                </Button>
+                <Button id="menu-btn" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="28.0" layoutY="130.0" mnemonicParsing="false" onAction="#onNavigateToUser" prefHeight="54.0" prefWidth="230.0" text="USERS         " textOverrun="CLIP">
+                    <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../../../../static/images/icon/user.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                    <padding>
+                        <Insets right="20.0" />
+                    </padding>
+                </Button>
+            </children>
+        </Pane>
+        <Pane layoutX="165.0" layoutY="25.0" prefHeight="550.0" prefWidth="700.0" style="-fx-background-color: #ffffff22; -fx-background-radius: 5px;">
+            <children>
+                <Button layoutX="507.0" layoutY="14.0" mnemonicParsing="false" onAction="#createFormMovie" styleClass="btn0" stylesheets="@../../../../static/css/components/btn0.css" text="Insert Movie" />
+                <ComboBox fx:id="comboBox" layoutX="43.0" layoutY="70.0" onAction="#onComboBoxSelectMovie" prefHeight="29.0" prefWidth="614.0" promptText="Selecione movie" styleClass="combobox-select" stylesheets="@../../../../static/css/components/combobox-select.css" />
+                <Pane fx:id="paneMovieForm" layoutX="43.0" layoutY="147.0" prefHeight="380.0" prefWidth="627.0">
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
