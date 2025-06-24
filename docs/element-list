@@ -1,9 +1,0 @@
-module:com.javaflix.javaflix
-com.java.java.application
-com.java.java.components
-com.java.java.controllers
-com.java.java.model
-com.java.java.model.enums
-com.java.java.repositories
-com.java.java.service
-com.java.java.utils
